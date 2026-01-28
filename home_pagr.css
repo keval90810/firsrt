@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+   
+}
+
+#hader{
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    display: flex;
+    
+}
+#contact{
+    margin-left: 60px;
+}
+#image{
+    width: 20%;
+    height:35%;
+    background-color: black;
+    margin-left: 75%;
+    margin-bottom: 20%;
+    
+}
+#try{
+    /* border-radius: 10px; */
+    background-color: green;
+    border-radius: 7px;
+}
+#login{
+    /* border-radius: 10px; */
+    background-color: green;
+    border-radius: 7px;
+}
+/* .icon{
+    border-radius:50% ;
+}
+.icon :hover{
+    background-color: lightblue;
+} */
+
+#page1{
+    width: 100%;
+    height: 10%;    
+}
+#page2{
+    width: 100%;
+    height: 90%;    
+    background-color: rgb(208, 219, 147);
+    align-items: center;
+    /* position: absolute; */
+    justify-content: center;
+    display: flex;
+}
+#page3{
+    width: 100%;
+    height: 90%;  
+    background-color: cadetblue;  
+    
+}
