@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  background-image: url(img.jpeg);
+
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+ background-color: transparent;
+ border: 1px solid #7171;
+ border-color: black;
+ background: rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 0 .2px rgba(0, 0, 0, 25); */
+  border-radius: 8px;
+  text-align: center;
+}
+
+#txt ,#email{
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  background-color: rgb(255, 243, 243);
+  
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0;
+  background: linear-gradient(45deg, #FFC0CB, #FFE2AF);
+  color: rgb(0, 0, 0);
+  
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2a65c7;
+}
+
+#msg {
+  margin-top: 10px;
+  color: green;
+}
